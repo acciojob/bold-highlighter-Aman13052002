@@ -1,6 +1,6 @@
 function highlight() {
     //Write your code here
-	const strong = document.querySelector('p strong');
+	const strong = document.querySelectorAll('strong');
 	strong.forEach(ele=>{
 		ele.style.color = "green";
 	});
@@ -9,7 +9,7 @@ function highlight() {
 
 function return_normal() {
     //Write your code here
-	const back = document.querySelector('p strong');
+	const back = document.querySelectorAll('strong');
 	back.forEach(ele=>{
 		ele.style.color = "black";
 	});
